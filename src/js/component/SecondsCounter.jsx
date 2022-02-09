@@ -13,7 +13,7 @@ const SecondsCounter = () => {
 		setSeconds((prevState) => prevState + 1);
 	}
 
-	const clockIcon = <i class="bi bi-clock"></i>;
+	const clockIcon = <i className="bi bi-clock"></i>;
 	const paddedSeconds = padSeconds(seconds);
 	const counterCharacters = [clockIcon, ...paddedSeconds];
 
